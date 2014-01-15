@@ -1,0 +1,97 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+       <head>
+              <title></title>
+            <script type="text/javascript" src="FP.js"></script>
+            <script type="text/javascript">
+
+                function JSInvoke(Jobj) {
+                    Jobj = eval('(' + Jobj + ')');
+                    Jobj = Jobj.DataSet[0].Table1;
+
+
+                    var jsondataGrid = new DataGrid(Jobj, "jsondataGrid", "dgvDiv");
+                    jsondataGrid.CreateDateGrid();
+
+                }
+//            function JsonFunction(Jobj) {
+//                Jobj = eval('(' + Jobj + ')');
+//                Jobj = Jobj.dt1;
+//                var q = 1;
+//                var t = 1;
+//                var str = document.getElementById('LabelDiv').innerHTML;
+//                str += " <table style='margin-top:30px' align='center' border='0' width='760' height='918' cellspacing='0' cellpadding='0'>" +
+//				       "<tr>&nbsp;";
+
+//                for (var i = 0; i < Jobj.length; i++) {
+//                    for (var j = 0; j < Jobj[i]["qty"]; j++) {
+//                        if (t == 34) {
+//                            str += "</tr>" +
+//                            "</table>&nbsp;" +
+//                            "<table  style='margin-top:30px' align='center' border='0' width='760' height='918' cellspacing='0' cellpadding='0'>" +
+//				            "<tr>&nbsp;";
+//                            t = 1;
+//                        }
+//                        if (q == 4) {
+//                            q = 1
+//                            if (t > 1) {
+//                                str += "</tr>" +
+//                                    "<tr>";
+//                            }
+//                        }
+
+//                        str += "<td width='250px' height='83px' align='left' valign='middle'>" +
+//                                unescape(Jobj[i]["Itemcode"].toUpperCase()) +
+//                                "</td>";
+//                        t++;
+//                        q++;
+
+//                    }
+//                }
+//                while (q < 4) {
+//                    str += "<td width='250' align='left' valign='middle'>" +
+//                                 "&nbsp;" +
+//                                "</td>";
+//                    t++;
+//                    q++;
+//                }
+//                str += "</tr>";
+//                if (t < 31) {
+//                    str += "<tr>" +
+//                            "<td colspan='3' align='left' valign='middle'>" +
+//                                "&nbsp;" +
+//                                "</td>" +
+//                                "</tr>";
+//                }
+
+//                str += "</tr></table> ";
+
+//                document.getElementById('LabelDiv').innerHTML = str;
+//            }
+//            
+        </script>
+        <style type="text/css">
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+		page-break-inside:avoid;
+}
+.tablec {
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+        </style>
+</head>
+       <body >
+       <div id="LabelDiv"></div>
+       <div id="dgvDiv"></div>
+       </body>
+</html>

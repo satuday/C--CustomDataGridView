@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomDataGridVeiw", "CustomDatagridveiw\CustomDataGridVeiw.csproj", "{C0C69A11-1E3F-499B-8DFA-64193555F973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication1", "TestApplication1\TestApplication1.csproj", "{C1DABA71-21AC-4735-9416-FDCAAF0D80BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0C69A11-1E3F-499B-8DFA-64193555F973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C69A11-1E3F-499B-8DFA-64193555F973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C69A11-1E3F-499B-8DFA-64193555F973}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C0C69A11-1E3F-499B-8DFA-64193555F973}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C0C69A11-1E3F-499B-8DFA-64193555F973}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C0C69A11-1E3F-499B-8DFA-64193555F973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C69A11-1E3F-499B-8DFA-64193555F973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C69A11-1E3F-499B-8DFA-64193555F973}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C0C69A11-1E3F-499B-8DFA-64193555F973}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C0C69A11-1E3F-499B-8DFA-64193555F973}.Release|x86.ActiveCfg = Release|Any CPU
+		{C1DABA71-21AC-4735-9416-FDCAAF0D80BF}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C1DABA71-21AC-4735-9416-FDCAAF0D80BF}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C1DABA71-21AC-4735-9416-FDCAAF0D80BF}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C1DABA71-21AC-4735-9416-FDCAAF0D80BF}.Debug|x86.ActiveCfg = Debug|x86
+		{C1DABA71-21AC-4735-9416-FDCAAF0D80BF}.Debug|x86.Build.0 = Debug|x86
+		{C1DABA71-21AC-4735-9416-FDCAAF0D80BF}.Release|Any CPU.ActiveCfg = Release|x86
+		{C1DABA71-21AC-4735-9416-FDCAAF0D80BF}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C1DABA71-21AC-4735-9416-FDCAAF0D80BF}.Release|Mixed Platforms.Build.0 = Release|x86
+		{C1DABA71-21AC-4735-9416-FDCAAF0D80BF}.Release|x86.ActiveCfg = Release|x86
+		{C1DABA71-21AC-4735-9416-FDCAAF0D80BF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
